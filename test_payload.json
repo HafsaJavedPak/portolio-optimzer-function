@@ -1,0 +1,31 @@
+{
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "GOOG"
+  ],
+  "expected_returns": {
+    "AAPL": 0.08,
+    "MSFT": 0.06,
+    "GOOG": 0.07
+  },
+  "covariance_matrix": {
+    "AAPL": {
+      "AAPL": 0.04,
+      "MSFT": 0.02,
+      "GOOG": 0.015
+    },
+    "MSFT": {
+      "AAPL": 0.02,
+      "MSFT": 0.05,
+      "GOOG": 0.025
+    },
+    "GOOG": {
+      "AAPL": 0.015,
+      "MSFT": 0.025,
+      "GOOG": 0.06
+    }
+  },
+  "investment_amount": 100000.0,
+  "risk_aversion": 1.0
+}
