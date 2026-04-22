@@ -11,3 +11,5 @@ arch
 joblib
 scipy
 azure-storage-blob
+
+azure-functions-durable
